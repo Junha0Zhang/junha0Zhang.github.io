@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: </p>Son, brother, student</p>
+subtitle: >
+          </p>Son, brother, student</p>
           </p>Sichuan — California — Zurich</p>
 
 profile:
