@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>"Dr. Zhang ready surgery"</p>
+    <p>"Dr. Zhang ready for surgery"</p>
     <p>taken at the department of neurosurgery,</p>
     <p>University Hospital of Zurich</p>
 
