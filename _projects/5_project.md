@@ -1,17 +1,15 @@
 ---
 layout: page
 title: project 5
-description: a project with a background image
+description: Patient registration with HoloLens 2
 img: assets/img/1.jpg
 importance: 3
 category: Neuronavigation
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Neuronavigation is technologies used by neurosurgeons to navigate inside the patient's skull by registering medical images and the physical world. At the department of neurosurgery in USZ, the geometry of the physical world is scanned by infrared system from Zeiss and the registration is done using software provided by BrainLab and Medtronic. They are highly delicate devices and are unaffordable for some hospitals. They are sometimes inconvenient to work with because they take a long time to implement and the quality of registration can vary a lot. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+With the novel technology of mixed reality, we implemented a new neuronavigation system based on HoloLens 2, where the hologram of medical images is registered and superimposed with the real patient. Our solution makes it much easier for surgeons to plan and navigate intracranial neurosurgeries.
 
     ---
     layout: page
