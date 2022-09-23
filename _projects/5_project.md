@@ -11,7 +11,7 @@ Neuronavigation is technologies used by neurosurgeons to navigate inside the pat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/neurosurgery.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/neurosurgery.jpg" title="neurosurgery" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -20,6 +20,11 @@ Neuronavigation is technologies used by neurosurgeons to navigate inside the pat
 
 With the novel technology of mixed reality, we implemented a new neuronavigation system based on HoloLens 2, where the hologram of medical images is registered and superimposed with the real patient. Our solution makes it much easier for surgeons to plan and navigate intracranial neurosurgeries.
 
+In current solution with Hololens-based neuronavigation, a pointer is used to indicate several points on both the hologram and the patient in the same order to register the hologram. There are several issues with this approach: 
+
+1. It is time-consuming: The surgeon needs to manually indicate all the facial landmarks. And if one makes a mistake in the process, he/she has to start pointing all over again.
+2. It has large errors: According to report, the average fiducial registration error of this approach is about 8.5mm, which can be large for clinical accuracy.
+3. It is unstable: the quality of registration heavily depends on the accuracy of picked point pairs.  
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
