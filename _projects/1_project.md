@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Human brain optoacoustic imaging
+description: cheap, mobile, but so useful
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Medical Imaging
 ---
 
 Every project has a beautiful feature showcase page.
