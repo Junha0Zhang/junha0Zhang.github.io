@@ -39,7 +39,7 @@ In current solution with Hololens-based neuronavigation, a pointer is used to in
     Neuronavigation developed by Augmedit from the Netherlands. On the left, the generated MRI mesh. Middle, planning before neurosurgery. Right, guidance during neurosurgery.
 </div>
 
-With the novel technology of mixed reality, we implemente a new neuronavigation system based on HoloLens 2, where the hologram of medical images is superimposed on the real patient using an automatic registration algorithm. By enabling research mode on Hololens 2, we get access to 8 avaliable sensor streams including IR, visual light, and depth. We use these data streams to reconsturct the patient's head in the real world coordinate and register that with patient's MRI. With more data accessible, uur solution makes it much easier for surgeons to plan and navigate intracranial neurosurgeries.
+With the novel technology of mixed reality, we implemente a new neuronavigation system based on HoloLens 2, where the hologram of medical images is superimposed on the real patient using an automatic registration algorithm. By enabling research mode on Hololens 2, we get access to 8 avaliable sensor streams including IR, visual light, and depth. We use these data streams to reconsturct the patient's head in the real world coordinate and register that with patient's MRI. With more data accessible, our solution makes it much easier for surgeons to plan and navigate intracranial neurosurgeries.
 
 
 <div class="row justify-content-sm-center">
@@ -51,24 +51,6 @@ With the novel technology of mixed reality, we implemente a new neuronavigation 
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: The test result on real patient in the OR. According to the feedback from surgeon, we have achieved clinical accuracy. Right: Test on phantom head. Because there is no noise around (such as the mouth tubing or hair), the registration is (and should be) nearly perfect.
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
