@@ -36,14 +36,10 @@ In current solution with Hololens-based neuronavigation, a pointer is used to in
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, the generated MRI mesh. Middle, planning before neurosurgery. Right, guidance during neurosurgery.
+    Neuronavigation developed by Augmedit from the Netherlands. On the left, the generated MRI mesh. Middle, planning before neurosurgery. Right, guidance during neurosurgery.
 </div>
 
-With the novel technology of mixed reality, we implemented a new neuronavigation system based on HoloLens 2, where the hologram of medical images is registered and superimposed with the real patient. Our solution makes it much easier for surgeons to plan and navigate intracranial neurosurgeries.
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+With the novel technology of mixed reality, we implemente a new neuronavigation system based on HoloLens 2, where the hologram of medical images is superimposed on the real patient using an automatic registration algorithm. By enabling research mode on Hololens 2, we get access to 8 avaliable sensor streams including IR, visual light, and depth. We use these data streams to reconsturct the patient's head in the real world coordinate and register that with patient's MRI. With more data accessible, uur solution makes it much easier for surgeons to plan and navigate intracranial neurosurgeries.
 
 
 <div class="row justify-content-sm-center">
