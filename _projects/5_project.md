@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 5
+title: HoloRegi
 description: Patient registration with HoloLens 2
 img: assets/img/background_neuronavigation.jpg
 importance: 3
