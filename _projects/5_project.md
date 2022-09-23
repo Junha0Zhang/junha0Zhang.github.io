@@ -7,15 +7,15 @@ importance: 3
 category: Neuronavigation
 ---
 
-Neuronavigation is technologies used by neurosurgeons to navigate inside the patient's skull by registering medical images and the physical world. At the department of neurosurgery in USZ, the geometry of the physical world is scanned by infrared system from Zeiss and the registration is done using software provided by BrainLab and Medtronic. They are highly delicate devices and are unaffordable for some hospitals. They are sometimes inconvenient to work with because they take a long time to implement and the quality of registration can vary a lot. 
+Neuronavigation is technologies used by neurosurgeons to navigate inside the patient's skull by registering medical images and the physical world. At neurosurgery OR in University Hospital Zurich, the geometry of the physical world is scanned by infrared system from Zeiss and the registration is done using software provided by BrainLab and Medtronic. They are highly delicate devices and are unaffordable for some hospitals. They are also sometimes inconvenient to work with because they take a long time to implement and the quality of registration can vary a lot. 
 
 With the novel technology of mixed reality, we implemented a new neuronavigation system based on HoloLens 2, where the hologram of medical images is registered and superimposed with the real patient. Our solution makes it much easier for surgeons to plan and navigate intracranial neurosurgeries.
 
     ---
     layout: page
     title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    description: A typical neuronavigation setting
+    img: /assets/img/neuronavigation.jpg
     ---
 
 <div class="row">
