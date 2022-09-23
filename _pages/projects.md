@@ -5,7 +5,7 @@ permalink: /projects/
 description: The growing collection of my cool projects!
 nav: true
 nav_order: 2
-display_categories: [Medical Imaging, Neuronavigation]
+display_categories: [Medical Imaging, Neuronavigation, Newbie projects]
 horizontal: false
 ---
 
