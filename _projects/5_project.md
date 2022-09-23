@@ -15,7 +15,7 @@ With the novel technology of mixed reality, we implemented a new neuronavigation
     layout: page
     title: project
     description: A typical neuronavigation setting
-    img: /assets/img/neuronavigation.jpg
+    img: /assets/img/neurosurgery.jpg
     ---
 
 <div class="row">
@@ -34,11 +34,11 @@ With the novel technology of mixed reality, we implemented a new neuronavigation
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/neurosurgery.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    A typical neuronavigation system using infrared in the OR. A mechanical part with four infrared balls is clamped to the head of the patient and detected.
 </div>
 
 You can also put regular text between your rows of images.
