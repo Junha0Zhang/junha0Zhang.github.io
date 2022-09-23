@@ -2,7 +2,7 @@
 layout: page
 title: project 5
 description: Patient registration with HoloLens 2
-img: assets/img/1.jpg
+img: assets/img/background_neuronavigation.jpg
 importance: 3
 category: Neuronavigation
 ---
