@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Automatic neuroanatomical analysis of MRI datasets
+title: Automatic anatomical analysis of MRI
 description: A comprehensive pipeline inspired by morphology, cycleGAN, and SVM
 img: assets/img/3.jpg
 importance: 2
