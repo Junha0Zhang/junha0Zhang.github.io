@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: </a>Son, brother, gamer, student
+subtitle: </a>Son, brother, hobby artist, gamer, student
 
 profile:
   align: right
