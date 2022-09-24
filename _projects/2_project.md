@@ -34,7 +34,7 @@ Segmentation of skull and calculating its thickness profile from T1 MRI is gener
     This image can also have a caption. It's like magic.
 </div>
 
-Another solution, which is getting more interesting, is using machine/deep learning to segment the skull from MRI. In this project, I calculate a feature-descripting vector (descriptor) for each voxel (3D pixel) of the images based on the (pre-registered) location and neighbor intensities. By training present paired MRI-CT dataset with support vector machine, we optimize the weights that classify each voxel as skull or non-skull. This method works well with limited number of training data, which is true for paired MRI-CT. Another possible solution is directly using 3D U-net to segment the skull, which needs to be investigated further.   
+Another solution, which is getting interesting, is using machine/deep learning to segment the skull from MRI. In this project, I calculate a feature-descripting vector (descriptor) for each voxel (3D pixel) of the images based on the (pre-registered) location and neighbor intensities. By training present paired MRI-CT dataset with support vector machine, we optimize the weights that classify each voxel as skull or non-skull. This method works well with limited number of training data, which is true for paired MRI-CT. Another possible solution is directly using 3D U-net to segment the skull, which needs to be investigated further.    
 
 
 <div class="row justify-content-sm-center">
