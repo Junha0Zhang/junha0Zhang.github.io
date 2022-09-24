@@ -6,7 +6,9 @@ img: assets/img/3.jpg
 importance: 3
 category: Medical Imaging
 ---
-In collaboration with the hospital, I measure the skull thicknesses and scalp-to-cortex distances at four different locations (sphenoid, parietal, etc.) from MRI scans. The data is further categorized in terms of gender and age to study the distribution. This geometric information is important to transcranial imaging modalities involved with optics and ultrasound because they have limited depth and resolution for functional imaging. 
+Multispectral optoacoustic tomography (MSOT) is an imaging technology that generates high-resolution optical images in biological tissues. It allows measurements of higher spatial resolution than conventional diffuse optical methods, while being non-invasive and non-ionizing. However, it suffers from comparably poor soft-tissue or anatomical contrast. To study the images from anatomical perspective in research, registration is usually required with MRI. 
+
+The co-registration between these two imaging modalities is currently done mannually via software such as PMOD, or semi-automatically via some algorithm. Either way, there is a lot of mannual work required even for latter method. Since both images are 3D and very different in appearance, the process can be time-consuming and painful unfortunately. Thus, a fully automatic pipeline would be so great! 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
