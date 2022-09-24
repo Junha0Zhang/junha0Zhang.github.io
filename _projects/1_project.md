@@ -7,14 +7,7 @@ importance: 1
 category: Medical Imaging
 ---
 
-Functional imaging of human brain such as hemoglobin or Tau protein levels usually requires bulky equipment like functional MRI. 
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Photoacoustic or optoacoustic tomography (OAT) capitalizes on optical contrast with ultrasound resolution, enabling high-resolution, real-time in vivo imaging with high penetration depth than typical microscopy. With the high temporal and spatial resolution, OAT can provide added value on versatile molecular information (such as hemoglobin and Tau protein levels) compared to magnetic resonance imaging (MRI) and transcranial Doppler ultrasound. We establish the feasibility of human brain OAT by evaluating transcranial 3D imaging of gelatin-based brain phantom.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
