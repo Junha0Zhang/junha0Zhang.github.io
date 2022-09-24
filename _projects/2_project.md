@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Automatic neuroanatomical analysis of MRI datasets
+description: A comprehensive pipeline inspired by morphology, cycleGAN, and SVM
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Medical Imaging
 ---
 
 Every project has a beautiful feature showcase page.
