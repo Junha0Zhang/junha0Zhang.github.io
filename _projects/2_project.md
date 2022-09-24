@@ -27,6 +27,9 @@ In collaboration with the hospital, I measure the skull thicknesses and scalp-to
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+Segmentation of skull and calculating its thickness profile from T1 MRI is generally very challenging because bones are black along with air in the scans. The first solution is using morphological transformations to extract the surface of inner and outer surfaces of the skull and calculating the 95% Hausdorff distance of the outer surface. The same procedure is applied to the scalp and cortex. Thanks to the API of 3D Slicer, we can process a batch of scans automatically.
+
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
