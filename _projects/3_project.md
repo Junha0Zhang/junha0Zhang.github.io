@@ -20,7 +20,7 @@ Multispectral optoacoustic tomography (MSOT) is an imaging technology that gener
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, the template of mouse MRI transverse view. Middle, 3D PBB-dyed optoacoustic image maximum intenisity projection (MIP). Right, 3D AOI-dyed optoacoustic image MIP. 
 </div>
 
 The co-registration between these two imaging modalities is currently done mannually via software such as PMOD, or semi-automatically via some algorithm. Either way, there is a lot of mannual work required even for the latter. Since both images are 3D and very different in appearance, the process can be time-consuming and painful unfortunately. Thus, a fully automatic pipeline would be so great! 
