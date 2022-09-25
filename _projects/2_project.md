@@ -2,7 +2,7 @@
 layout: page
 title: Automatic anatomical analysis of MRI
 description: A comprehensive pipeline inspired by morphology, pix2pix GAN, and SVM
-img: assets/img/background_regi.jpg
+img: assets/img/brain_mri.jpg
 importance: 2
 category: Medical Imaging
 ---
