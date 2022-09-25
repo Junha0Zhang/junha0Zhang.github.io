@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HoloRegi
-description: Patient registration with HoloLens 2
+description: Neuronavigation with HoloLens 2
 img: assets/img/background_neuronavigation.jpg
 importance: 3
 category: Neuronavigation
