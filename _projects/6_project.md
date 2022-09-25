@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: bio-inspired solar cells
+description: First project ever. My part is kinda boring, but it's fun to watch how real researchers work.
+img: assets/img/cubesat.jpg
+redirect: https://www.icb.ucsb.edu/research/projects/bio-inspired-lightweight-polymer-based-flexible-optoelectronics
+importance: 1
+category: Newbie projects
 ---
 
 Every project has a beautiful feature showcase page.
