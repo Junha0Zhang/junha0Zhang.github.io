@@ -54,5 +54,5 @@ With the novel technology of mixed reality, we implemente a new neuronavigation 
     Left: The test result on real patient in the OR. According to the feedback from surgeon, we have achieved clinical accuracy. Right: Test on phantom head. Because there is no noise around (such as the mouth tubing or hair), the registration is (and should be) nearly perfect.
 </div>
 
-Instead of registering images with only 5 paired landmarks, we directly register the entire face of the patient to the face of the reconstructed MRI mesh. With powerful cloud copmputing like Azure, the automatic registration is done within 5 seconds. The average registration error is only 2.5mm, enabling accurate neuronavigation and planning for surgeons. In general, we substantially improve the current solution by building a fast, accurate, and stable workflow.  
+Instead of registering images with only 5 paired landmarks, we directly register the entire face of the patient to the face of the reconstructed MRI mesh. With powerful cloud copmputing from Azure, the automatic registration is done within 5 seconds. The average registration error is only 2.5mm, enabling accurate neuronavigation and planning for surgeons. In general, we substantially improve the current solution by building a fast, accurate, and stable workflow.  
 
