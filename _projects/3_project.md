@@ -10,13 +10,13 @@ Multispectral optoacoustic tomography (MSOT) is an imaging technology that gener
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/MRI.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/MRI.jpg" title="MRI" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pbb.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pbb.jpg" title="pbb" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/aoi.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/aoi.jpg" title="aoi" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -28,7 +28,7 @@ The co-registration between these two imaging modalities is currently done mannu
 The solution involves with the segmentation of brain in each imaging modality through U-net, and then the registration between two brain masks (DL-based or optimization-based can both do the job!). The error function can be chosen as RMSE, BCE, Dice, or you can explore your own to optimize the prediction.  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pipeline.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pipeline.jpg" title="pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -37,17 +37,19 @@ The solution involves with the segmentation of brain in each imaging modality th
 
 Of course, directly expanding 2D U-net to 3D is not that simple becasue 3D volumetric data contains a lot more information than 2D. Since annonated 3D medical images are usually very limited in number, this will easily lead to overparameterization. So besides regular data augmentation like rotation, translation, and scaling, we use Generative Adversarial Networks (GANs) such as DCGAN and cycleGAN to generate realistic images. This helps us boost the number of training data and fight against overparameterization.  
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/real_1.jpg" title="real_1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/fake.jpg" title="fake" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/real_2.jpg" title="real_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    There are two real optoacoustic images and a fake one. Can you tell which is the fake? According to literature, the data augmentation can increase the network performance by 20%.
 </div>
 
 
