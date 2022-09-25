@@ -35,7 +35,7 @@ The solution involves with the segmentation of brain in each imaging modality th
     The pipeline of registration between MSOT and MRI. The U-net can be 3D or 2D according to the image types. The registration CNN is trained to predict a transformation matrix. 
 </div>
 
-Another solution, which is getting interesting, is using machine/deep learning to segment the skull from MRI. In this project, I calculate a feature-descripting vector (descriptor) for each voxel (3D pixel) of the images based on the (pre-registered) location and neighbor intensities. By training present paired MRI-CT dataset with support vector machine, we optimize the weights that classify each voxel as skull or non-skull. This method works well with limited number of training data, which is true for paired MRI-CT. Another possible solution is directly using 3D U-net to segment the skull, which needs to be investigated further.    
+Of course, directly expanding 2D U-net to 3D is not that simple becasue 3D volumetric data contains a lot more information than 2D. Since annonated 3D medical images are usually very limited in number, this will easily lead to overparameterization. So besides regular data augmentation like rotation, translation, and scaling, we use Generative Adversarial Networks (GANs) such as DCGAN and cycleGAN to generate realistic images. This helps us boost the number of training data and fight against overparameterization.  
 
 
 <div class="row justify-content-sm-center">
