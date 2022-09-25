@@ -10,17 +10,17 @@ In collaboration with the hospital, I measure the skull thicknesses and scalp-to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/infared.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ultrasound.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/transcranial_oat.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: transcranial near-infrared optical tomography. Middle: transcranial ultrasound. Right: transcranial optoacoustic tomography. Both optical and ultrasound waves will be heavily attenuated and distorted during the propagation. That's why we measure those distances to find the optimal solutions of imaging in future clinical practice.
 </div>
 
 Segmentation of skull and calculating its thickness profile from T1 MRI is generally very challenging because bones are black along with air in the scans. The first solution is using morphological transformations to extract the surface of inner and outer surfaces of the skull and calculating the 95% Hausdorff distance of the outer surface. The same procedure is applied to the scalp and cortex. By registering each MRI to a template in advance, we can make sure that we are measuring the same location for each sample. And thanks to the API of 3D Slicer, we can process a batch of scans automatically.
