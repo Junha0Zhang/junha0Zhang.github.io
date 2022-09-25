@@ -2,7 +2,7 @@
 layout: page
 title: Solar memory laboratory
 description: High horse power, in no man's sky
-img: assets/img/7.jpg
+img: assets/img/cubesat.jpg
 redirect: https://capstone.engineering.ucsb.edu/projects/solar-memory-laboratory
 importance: 1
 category: Newbie projects
