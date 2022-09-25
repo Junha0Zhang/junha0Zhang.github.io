@@ -21,6 +21,6 @@ Sichuan — California — Zurich
 
 Hi, I am Junhao Zhang! I am a graduate student, an engineer, and a software developer for biomedical imaging and neuronavigation. I was born and brought up in Sichuan, China. I graduated from University of California, Santa Barbara with degrees in physics and mechanical engineering. And I am currently a master student at ETH Zurich, Switzerland.
 
-I investigate noval medical imaging techniques and develop interactive visual representation of them for clinical analysis and medical intervention. With them, I deliver valuable information unattainable with existing state-of-the-art approaches for clinical practice. Ultimately, my goal is to make neuroradiology and neurosurgery solutions affordable, accurate, and convenient for both doctors and patients using cutting-edge technologies.
+I investigate noval medical imaging techniques and develop interactive visual representation of them for clinical analysis and medical intervention. With them, I present valuable information unattainable with existing state-of-the-art approaches for clinical practice. Ultimately, my goal is to deliver neuroradiology and neurosurgery solutions affordable, accurate, and convenient for every one.
 
 Check out my [projects](https://Junha0Zhang.github.io/projects/) in Razansky lab and University Hospital of Zurich!
