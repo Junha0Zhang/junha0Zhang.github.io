@@ -2,7 +2,7 @@
 layout: page
 title: 3D MRI-optoacoustic image registration
 description: Deep learning based, fully automatic
-img: assets/img/3.jpg
+img: assets/img/background_regi.jpg
 importance: 3
 category: Medical Imaging
 ---
