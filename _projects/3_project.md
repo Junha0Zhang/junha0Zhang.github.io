@@ -8,8 +8,6 @@ category: Medical Imaging
 ---
 Multispectral optoacoustic tomography (MSOT) is an imaging technology that generates high-resolution optical images in biological tissues. It allows measurements of higher spatial resolution than conventional diffuse optical methods, while being non-invasive and non-ionizing. However, it suffers from comparably poor soft-tissue or anatomical contrast. To study the images from anatomical perspective in research, registration is usually required with MRI. 
 
-The co-registration between these two imaging modalities is currently done mannually via software such as PMOD, or semi-automatically via some algorithm. Either way, there is a lot of mannual work required even for the latter. Since both images are 3D and very different in appearance, the process can be time-consuming and painful unfortunately. Thus, a fully automatic pipeline would be so great! 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -25,8 +23,9 @@ The co-registration between these two imaging modalities is currently done mannu
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 
-Segmentation of skull and calculating its thickness profile from T1 MRI is generally very challenging because bones are black along with air in the scans. The first solution is using morphological transformations to extract the surface of inner and outer surfaces of the skull and calculating the 95% Hausdorff distance of the outer surface. The same procedure is applied to the scalp and cortex. By registering each MRI to a template in advance, we can make sure that we are measuring the same location for each sample. And thanks to the API of 3D Slicer, we can process a batch of scans automatically.
+The co-registration between these two imaging modalities is currently done mannually via software such as PMOD, or semi-automatically via some algorithm. Either way, there is a lot of mannual work required even for the latter. Since both images are 3D and very different in appearance, the process can be time-consuming and painful unfortunately. Thus, a fully automatic pipeline would be so great! 
 
+The solution involves with the segmentation of brain in each imaging modality through U-net, and then the registration between two brain masks (DL-based or optimization-based can both do the job!). The error function can be chosen as RMSE, BCE, Dice, or you can explore your own to optimize the prediction.  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/pipeline.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
