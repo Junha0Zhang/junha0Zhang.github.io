@@ -2,7 +2,7 @@
 layout: page
 title: bio-inspired solar cells
 description: First project ever. My part is kinda boring, but it's fun to watch how real researchers work.
-img: assets/img/cubesat.jpg
+img: assets/img/squid.jpg
 redirect: https://www.icb.ucsb.edu/research/projects/bio-inspired-lightweight-polymer-based-flexible-optoelectronics
 importance: 1
 category: Newbie projects
