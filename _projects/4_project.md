@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Solar memory laboratory
+description: High horse power, in no man's sky
 img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+redirect: https://capstone.engineering.ucsb.edu/projects/solar-memory-laboratory
+importance: 1
 category: Newbie projects
 ---
 
