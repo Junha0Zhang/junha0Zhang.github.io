@@ -37,18 +37,21 @@ We establish the feasibility of human brain OAT by evaluating transcranial 3D im
     Left: the acoustic attenuation of skull bone. The scattering and attentuation make it difficult for transcranial imaging with light and sound. Right: the optoacoustic tomography (OAT) of the brain phantom.
 </div>
 
-We are investigating the effect of skull for transcranial optoacoustic imaging. Hopefully  
+We are investigating the effect of skull for transcranial optoacoustic imaging. Hopefully we can develop different clinical uses from this imaging approach! 
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/wo_skull.jpg" title="no skull" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1.5mm.jpg" title="1.5 mm" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2.4mm.jpg" title="2.4 mm" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    OAT images of target particles: no skull, skull of 1.5mm thickness, 2.4mm
 </div>
 
