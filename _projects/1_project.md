@@ -23,7 +23,7 @@ We establish the feasibility of human brain OAT by evaluating transcranial 3D im
     </div>
 </div>
 <div class="caption">
-    Left: brain phantom with vessel. Middle: imaging setup. Right: skull measurement.  
+    Left: brain phantom with vessel. Middle: imaging setup. Right: skull measurement. 
 </div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -52,6 +52,6 @@ We are investigating the effect of skull for transcranial optoacoustic imaging. 
     </div>
 </div>
 <div class="caption">
-    OAT images of target particles: no skull, skull of 1.5mm thickness, 2.4mm
+    OAT images of target particles: no skull, skull of 1.5mm thickness, 2.4mm. Laser wavelength is 800nm, spatial resolution 200-400 microns, field of view 15mm.
 </div>
 
