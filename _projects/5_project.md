@@ -39,7 +39,7 @@ In current solution with Hololens-based neuronavigation, a pointer is used to in
     Neuronavigation developed by Augmedit. On the left, the generated MRI mesh. Middle, planning before neurosurgery. Right, guidance during neurosurgery.
 </div>
 
-With the novel technology of mixed reality, we implemente a new neuronavigation system based on HoloLens 2, where the hologram of medical images is superimposed on the real patient using an automatic registration algorithm. The average registration error is only 2.5mm, enabling accurate neuronavigation and planning for surgeons. In general, we substantially improve the current solution by building a fast, accurate, and stable workflow.  
+With the novel technology of mixed reality, we implement a new neuronavigation system based on HoloLens 2, where the hologram of medical images is superimposed on the real patient using an automatic registration algorithm. The average registration error is only 2.5mm, enabling accurate neuronavigation and planning for surgeons. By solving the mentioned problems, we substantially improve the current solution by building a fast, accurate, and stable workflow.  
 
 
 <div class="row justify-content-sm-center">
