@@ -9,7 +9,7 @@ category: Medical Imaging
 
 Photoacoustic or optoacoustic tomography (OAT) capitalizes on optical contrast with ultrasound resolution, enabling high-resolution, real-time in vivo imaging with high penetration depth than typical microscopy. With the high temporal and spatial resolution, OAT can provide added value on versatile molecular information (such as hemoglobin and Tau protein levels) compared to magnetic resonance imaging (MRI) and transcranial Doppler ultrasound. 
 
-We establish the feasibility of human brain OAT by evaluating transcranial 3D imaging of gelatin-based brain phantom. (Update: We now received the permission to do it with real human skulls or just on a person in Zurich, stay tuned!)
+We establish the feasibility of human brain OAT by evaluating transcranial 3D imaging of gelatin-based brain phantom. (Update: We now received the permission to do it with real human skulls or just on a person in Zurich, stay tuned!) The optical and acoustic properties of the brain phantom are highly similar to real human brain by using innovative 3D bioprinting techniques. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,7 +23,7 @@ We establish the feasibility of human brain OAT by evaluating transcranial 3D im
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: brain phantom with vessel. Middle: imaging setup. Right: characterization of skull.  
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
