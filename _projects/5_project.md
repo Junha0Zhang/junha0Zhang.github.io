@@ -39,7 +39,7 @@ In current solution with Hololens-based neuronavigation, a pointer is used to in
     Neuronavigation developed by Augmedit. On the left, the generated MRI mesh. Middle, planning before neurosurgery. Right, guidance during neurosurgery.
 </div>
 
-With the novel technology of mixed reality, we implement a new neuronavigation system based on HoloLens 2, where the hologram of medical images is superimposed on the real patient using an automatic registration algorithm. The average registration error is only 2.5mm, enabling accurate neuronavigation and planning for surgeons. By solving the mentioned problems, we substantially improve the current solution by building a fast, accurate, and stable workflow.  
+With the novel technology of mixed reality, we implement a new neuronavigation system based on HoloLens 2, where the hologram of medical images is superimposed on the real patient using an automatic registration algorithm. The average registration error is only 2.5mm, enabling accurate neuronavigation and planning for surgeons. By solving the mentioned problems, we substantially improve the current solution and build a fast, accurate, and stable workflow.  
 
 
 <div class="row justify-content-sm-center">
@@ -54,4 +54,4 @@ With the novel technology of mixed reality, we implement a new neuronavigation s
     Left: The test result on real patient in the OR. According to the feedback from surgeon, we have achieved clinical accuracy. Right: Test on phantom head. Because there is no noise around (such as the mouth tubing or hair), the registration is (and should be) nearly perfect.
 </div>
 
-Because I signed a non-disclosure, I cannot share technical details about this project. If you want to discuss potential surgical applications with mixed reality, feel free to [email](mailto:junhzhang@student.ethz.ch) me!
+Because I signed a non-disclosure, I cannot share technical details about this project. If you want to discuss other potential surgical applications with mixed reality, feel free to [email](mailto:junhzhang@student.ethz.ch) me!
