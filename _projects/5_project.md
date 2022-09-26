@@ -54,4 +54,4 @@ With the novel technology of mixed reality, we implement a new neuronavigation s
     Left: The test result on real patient in the OR. According to the feedback from surgeon, we have achieved clinical accuracy. Right: Test on phantom head. Because there is no noise around (such as the mouth tubing or hair), the registration is (and should be) nearly perfect.
 </div>
 
-Because I signed a non-disclosure, I cannot share technical details about this project. If you want to discuss potential surgical applications with mixed reality, feel free to [email](junhzhang@student.ethz.ch) me!
+Because I signed a non-disclosure, I cannot share technical details about this project. If you want to discuss potential surgical applications with mixed reality, feel free to [email](mailto:junhzhang@student.ethz.ch) me!
