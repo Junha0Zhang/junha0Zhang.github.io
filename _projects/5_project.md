@@ -4,7 +4,7 @@ title: HoloRegi
 description: Neuronavigation with HoloLens 2
 img: assets/img/background_neuronavigation.jpg
 importance: 3
-category: Neuronavigation
+category: Hiden
 ---
 
 Neuronavigation is technologies used by neurosurgeons to navigate inside the patient's skull by registering medical images and the physical world. At the neurosurgery OR in University Hospital Zurich, the geometry of the physical world is scanned by infrared system from Zeiss and the registration is done using software provided by BrainLab and Medtronic. They are highly delicate devices and are unaffordable for some hospitals. They are also sometimes inconvenient to work with because they take a long time to implement and the quality of registration can vary a lot. 
