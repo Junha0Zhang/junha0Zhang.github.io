@@ -2,7 +2,7 @@
 layout: page
 title: Human brain optoacoustic imaging
 description: Cheap, mobile, and so useful
-img: assets/img/12.jpg
+img: assets/img/oat_brain.jpg
 importance: 1
 category: Medical Imaging
 ---
