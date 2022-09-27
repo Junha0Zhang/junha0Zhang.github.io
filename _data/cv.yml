@@ -14,19 +14,13 @@
     - title: Master of Science
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 2021-present
+      description: Mechanical and Process Engineering
+    - title: Bachelor of Science
+      institution: University of California, Santa Barbara, United States of America
+      year: 2017-2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Physics
+        - Mechanical Engineering
 
 - title: Experience
   type: time_table
