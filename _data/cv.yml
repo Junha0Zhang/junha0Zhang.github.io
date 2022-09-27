@@ -16,7 +16,7 @@
       year: 2021-present
       description: Mechanical and Process Engineering
     - title: Bachelor of Science
-      institution: University of California, Santa Barbara, United States of America
+      institution: University of California, Santa Barbara, United States
       year: 2017-2021
       description:
         - Physics
@@ -25,67 +25,54 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research assistant
+      institution: The Multi-scale Functional and Molecular Imaging Group, ETH Zurich
+      year: 2021.09-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Established the feasibility of human brain photoacoustic tomography and optimized the algorithm for imageprocessing.
+        - Fabricated brain phantom with 3D bioprinting techniques.  Characterized its optical and acoustic properties.
+        - Implemented an automatic pipeline to analyze the geometric properties of a MRI dataset.
+        - Implemented deep learning models to segment mouse brain from 3D optoacoustic images and register them toMRI scans.
+        
+    - title: Intern software developer
+      institution: University Hospital Zurich, Switzerland
+      year: 2022.02-present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Designed a neuronavigation workflow based on mixed-reality technologies.
+        - Developed automatic registration algorithm from scanned patient in the real world to reconstructed MRI mesh.  Deployedand tested the solution for intracranial neurosurgeries in the OR.
+        - Communicated with surgeons in each field test to improve the solution based on feedback.
+        
+    - title: Intern specialist
+      institution: Institute for Collaborative Biotechnologies, California
+      year: 2019
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Participated in interdisciplinary bio-related research with different teams, and built mechanical parts for them.
+        - Designed and tested control system and imaging system for scientific research.
+        - Helped with data logging, device maintenance, and meeting organizing.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Dean’s Honor in the College of Engineering
+        - Outstanding Innovation Award for capstone project ($1500 scholarship!)
+    - year: 2020
       items: 
-        - Max Planck Medal
+        - Academic High Honors Award
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Medical imaging
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Transcranial photoacoustic imaging
+        - fMRI image processing
+    - title: Neuronavigation
       items:
-        - Description 1.
-        - Description 2.
+        - Mixed reality based
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Drawing, game developing with Unity, soccer, gaming.
