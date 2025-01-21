@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+
+ruby '3.0.2' # Specify Ruby version to ensure environment consistency
+
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -17,7 +20,11 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+
 group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
+# Ensure compatibility with the default gem versions
+gem 'uri', '~> 0.10.1', require: false
