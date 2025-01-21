@@ -26,6 +26,9 @@ jobs:
     - name: Install Bundler
       run: gem install bundler
 
+    - name: Configure Bundler
+      run: bundle config set --global without default
+
     - name: Install Ruby Dependencies
       run: bundle install
 
@@ -50,4 +53,5 @@ jobs:
         yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }}
                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
+
 
