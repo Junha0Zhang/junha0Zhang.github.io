@@ -19,8 +19,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 Sichuan — California — Zurich
 
-Hi, I am Junhao Zhang! I am a graduate student, an engineer, and a software developer for biomedical imaging and neuronavigation. I was born and brought up in Sichuan, China. I graduated from University of California, Santa Barbara with degrees in physics and mechanical engineering. I am currently a master student at ETH Zurich, Switzerland, and I will join Johns Hopkins University as a PhD student in the fall 2023.
+Hi, I’m Junhao Zhang, a researcher specializing in biomedical imaging and image-guided surgery. I was born and raised in Sichuan, China. I earned dual bachelor's degrees in Physics and Mechanical Engineering from the University of California, Santa Barbara, and a master’s degree from ETH Zurich. Currently, I am a second-year PhD student in the Department of Electrical and Computer Engineering at Johns Hopkins University.
 
-I investigate noval medical imaging techniques and develop interactive visual representation of them for clinical analysis and medical intervention. With them, I present valuable information unattainable with existing state-of-the-art approaches for clinical practice. Ultimately, my goal is to deliver neuroradiology and neurosurgery solutions that are affordable, accurate, and convenient for every one.
+My research focuses on developing novel medical imaging techniques and creating interactive visual representations for clinical analysis and surgical intervention. I am particularly interested in leveraging optimization, signal processing, machine learning, and probability theory to design algorithms that integrate the laws of physics to visualize and interpret the world. My ultimate goal is to advance radiology and surgical solutions that are accessible, accurate, and convenient for everyone.
 
 Check out my [projects](https://Junha0Zhang.github.io/projects/) in the lab and University Hospital of Zurich!
