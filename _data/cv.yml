@@ -11,9 +11,13 @@
 - title: Education
   type: time_table
   contents:
+      - title: PhD
+      institution: Johns Hopkins University
+      year: 2023-present
+      description: Electrical and Computer Engineering
     - title: Master of Science
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 2021-present
+      year: 2021-2023
       description: Mechanical and Process Engineering
     - title: Bachelor of Science
       institution: University of California, Santa Barbara, United States
@@ -25,14 +29,22 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research assistant, Teaching assistant
+      institution: Johns Hopkins University
+      year: 2023.08-present
+      description:
+        - Research
+        - Teaching
+        - Lab organizing
+        
     - title: Research assistant
       institution: The Multi-scale Functional and Molecular Imaging Group, ETH Zurich
-      year: 2021.09-present
+      year: 2021.09-2023.01
       description:
-        - Established the feasibility of human brain photoacoustic tomography and optimized the algorithm for imageprocessing.
+        - Established the feasibility of human brain photoacoustic tomography and optimized the algorithm for image processing.
         - Fabricated brain phantom with 3D bioprinting techniques.  Characterized its optical and acoustic properties.
         - Implemented an automatic pipeline to analyze the geometric properties of a MRI dataset.
-        - Implemented deep learning models to segment mouse brain from 3D optoacoustic images and register them toMRI scans.
+        - Implemented deep learning models to segment mouse brain from 3D optoacoustic images and register them to MRI scans.
         
     - title: Intern software developer
       institution: University Hospital Zurich, Switzerland
@@ -66,7 +78,7 @@
   contents:
     - title: Medical imaging
       items: 
-        - Transcranial photoacoustic imaging
+        - Photoacoustic imaging
         - fMRI image processing
     - title: Neuronavigation
       items:
